@@ -27,6 +27,10 @@ Coming soon.
 
 
 == Changelog ==
+Version 1.5.3.8 - August 29, 2018
+FIX: Responsiveness support added
+FIX: rtl mobile issue fixed
+
 Version 1.5.2.0 - October 9, 2017
 FIX: Isseu related to e-signature right to left support
 
