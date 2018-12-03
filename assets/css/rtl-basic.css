@@ -626,8 +626,8 @@ a:link
 }
 
 #esign_click_submit{
-    position: relative;
-    left: -1100px;  
+    position: absolute;
+    left: 7%;  
 }
 
 .agree-container{
