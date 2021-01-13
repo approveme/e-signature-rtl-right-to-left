@@ -7,7 +7,7 @@
  * Plugin Name:       WP E-Signature - RTL
  * Plugin URI:        http://approveme.me/wp-digital-e-signature
  * Description:       Adds Right-to-left (RTL) support to Agreement page & Admin Area of E-signature.
- * Version:           1.5.2.0
+ * Version:           1.5.4.5
  * Author:            Approve Me
  * Author URI:        https://www.approveme.com/
  */
@@ -15,7 +15,7 @@
 if (!defined('WPINC')) {
     die;
 }
-define('ESIGN_RTL_URL',  plugins_url("",__FILE__));
+define('ESIGN_RTL_URL', plugins_url("", __FILE__));
 
 if (!class_exists("Esig_RTL")):
 
@@ -26,18 +26,16 @@ if (!class_exists("Esig_RTL")):
             add_action("init", array($this, "esig_rtl_init"));
 
             add_action("admin_notices", array($this, "esig_requirement_fallback"));
-            add_filter("esig-pdf-export-stylesheet",array($this,"esig_rtl_pdf_styles"), 10, 1);
+            add_filter("esig-pdf-export-stylesheet", array($this, "esig_rtl_pdf_styles"), 10, 1);
         }
-        
+
         public function esig_rtl_pdf_styles($stylesheet) {
-            
-            $style_data = file_get_contents( ESIGN_RTL_URL . '/assets/css/rtl-pdf.css'); // external rtl pdf css
-            $stylesheet .= $style_data ;
+
+            $style_data = file_get_contents(ESIGN_RTL_URL . '/assets/css/rtl-pdf.css'); // external rtl pdf css
+            $stylesheet .= $style_data;
             return $stylesheet;
         }
 
-       
-        
         public function esig_requirement_fallback() {
             if (!function_exists("WP_E_Sig")) {
                 echo ' <div class="error"> <h4>WP E-Signature is not installed. &nbsp; It is required to run the E-Signature RTL add-on. &nbsp;Get your business license now  - <a href="http://aprv.me">http://aprv.me</a></h4></div>';
@@ -57,33 +55,35 @@ if (!class_exists("Esig_RTL")):
             }
             // check this site is rtl enabled 
             if (self::is_rtl_enabled()) {
+
                 $api = new WP_E_Api();
                 $document_api = new WP_E_Document();
                 $doc_id = isset($_GET['csum']) ? $document_api->document_id_by_csum($_GET['csum']) : null;
+                if (!$doc_id) {
+                    $doc_id = esigget("document_id");
+                }
                 $document_type = $api->document->getDocumenttype($doc_id);
-                
+
                 if ($document_type == "normal") {
-                add_action("esig_head", array($this, "esig_rtl_basic_pdf_styles"));
+                    add_action("esig_head", array($this, "esig_rtl_basic_pdf_styles"));
+                } else {
+                    add_action("esig_head", array($this, "esig_rtl_frontend_styles"));
                 }
-                else{
-                  add_action("esig_head", array($this, "esig_rtl_frontend_styles"));  
-                }
-                
+
                 $current_screen = isset($_GET['page']) ? $_GET['page'] : '';
-                
+
                 $signature_screens = array(
-                'esign-add-document',
-                'esign-edit-document',
-                'esign-addons',
+                    'esign-add-document',
+                    'esign-edit-document',
+                    'esign-addons',
                 );
-                
-               // if (in_array($current_screen, $signature_screens)) {
+
+                // if (in_array($current_screen, $signature_screens)) {
                 add_action('admin_enqueue_scripts', array($this, 'enqueue_admin_styles'));
-               // }
-                
+                // }
             }
         }
-        
+
         public function enqueue_admin_styles() {
             echo "<link rel='stylesheet' id='esig-rtl-css'  href='" . plugins_url('assets/css/rtl-admin.css', __FILE__) . "' type='text/css' media='all' />";
         }
@@ -93,9 +93,15 @@ if (!class_exists("Esig_RTL")):
         }
 
         public function esig_rtl_basic_pdf_styles() {
-            echo "<link rel='stylesheet' id='esig-rtl-css-basic'  href='" . plugins_url('assets/css/rtl-basic.css', __FILE__) . "' type='text/css' media='all' />";
+            
+            if (wp_is_mobile()) {
+                echo "<link rel='stylesheet' id='esig-rtl-css-basic'  href='" . plugins_url('assets/css/rtl-basic-mobile.css', __FILE__) . "' type='text/css' media='all' />";
+            }
+            else {
+               echo "<link rel='stylesheet' id='esig-rtl-css-basic'  href='" . plugins_url('assets/css/rtl-basic.css', __FILE__) . "' type='text/css' media='all' />"; 
+            }
         }
-        
+
         public function tinymce_bi_directional_buttons(array $buttons) {
             array_push($buttons, "separator", "ltr", "rtl");
             return $buttons;

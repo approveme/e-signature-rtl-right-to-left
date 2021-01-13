@@ -2,11 +2,9 @@
 Contributors: approveme
 Donate link: http://aprv.me/1LgWgTW
 Tags: right-to-left, rtl, rtl plugin, rtl support wordpress, wordpress right-to-left, wordpress rtl, WP eSignature rtl
-
 Requires at least: 3.3
-Tested up to: 4.8.2
-Stable tag: 1.5.2.0
-
+Tested up to: 5.1
+Stable tag: 1.5.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +27,14 @@ Coming soon.
 
 
 == Changelog ==
+Version 1.5.4.5 - March 5, 2019
+FIX: basic document responsive issue fixed
+FIX: Agree and signer responsive issue fixed
+
+Version 1.5.3.8 - August 29, 2018
+FIX: Responsiveness support added
+FIX: rtl mobile issue fixed
+
 Version 1.5.2.0 - October 9, 2017
 FIX: Isseu related to e-signature right to left support
 
