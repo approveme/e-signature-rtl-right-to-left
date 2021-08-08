@@ -209,7 +209,7 @@ a:link
     width: 80px;
     height: 70px;
     top:30%;
-    right:-14px;
+    right:-100px;
     -ms-transform: rotate(180deg);
     /* IE 9 */
     -webkit-transform: rotate(180deg);
@@ -236,6 +236,7 @@ a:link
 .footer-btn
 {
     padding: 13px;
+    margin-left: 50px !important;
 }
 
 .footer-agree
@@ -244,7 +245,6 @@ a:link
     width: 100%;
     direction: rtl;
     color: #fefefe;
-    position: relative !important;
     z-index: 200;
     padding: 15px;
     bottom:0;
@@ -646,7 +646,7 @@ a:link
     bottom: -50px;   
 }
 
-#audit-trail-wrapper .main .clearfix 
+#audit-trail-wrapper > section.main > div.row.history.clearfix.rtl-clearfix-history
 {
     position: relative;
     bottom: -70px;  
@@ -661,8 +661,14 @@ a:link
 .navbar-right 
 {
     float: none !important;
-    margin-right: -15px;
+    margin-right: -50px !important;
 }
+
+
+    .navbar-left {
+         float: none !important; 
+    }
+
 
 .agree-container
 {
@@ -670,10 +676,6 @@ a:link
     direction: rtl;
 }
 
-.esig-template-page .sig-tooltip.active 
-{
-    margin-top: -45px !important;
-}
 
 .instructions
 { 
@@ -698,7 +700,6 @@ a:link
     text-shadow: none;
     position: relative;
     left:400px;
-    top: 20px;
 }
 
 #downloadLink,#print-agree-button
@@ -1345,3 +1346,11 @@ table.responsive-table
     }
 }
 
+.signature-wrapper-displayonly .sign-here 
+{
+    background-position: bottom right !important;
+}
+
+#main-signature .col-sm-6 {
+    float: right;
+}
