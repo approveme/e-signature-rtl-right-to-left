@@ -971,3 +971,53 @@ position:relative ; margin:5px;
     direction: rtl;
   
 }
+
+
+/*
+ * new fixes for admin dasboard
+ */
+
+ .esign-form-header{
+    text-align: right;
+ }
+ .esig-inside .container-fluid p {
+    text-align: right;
+}
+.esig-section-title {
+    text-align: right;
+}
+.esig-inside .tooltip {
+    float: right;
+    margin-left: 20px;
+}
+.esig-edit-screen-print-pdf-section {
+    padding-right: 2%;
+    text-align: right;
+}
+.sad-page-auto-creation-container .sad-auto-section-row {
+   
+    text-align: right;
+   
+}
+.thickbox-loading{
+    margin-top: 0px !important;
+}
+#page-loader-admin
+{
+    right:25% !important;
+
+}
+
+.esig-postbox-container{
+    float: left !important;
+}
+#esig-settings-col2,.esig-settings-col2 h4 {
+    float: right !important;
+    text-align: right !important;
+   
+}
+
+.esig-settings-form td,.esig-settings-form .tooltip {
+    
+    float: right !important;
+}
