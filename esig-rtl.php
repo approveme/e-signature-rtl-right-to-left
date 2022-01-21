@@ -31,7 +31,7 @@ if (!class_exists("Esig_RTL")):
         public function esig_rtl_pdf_styles($stylesheet) {
 
             $style_data = file_get_contents(ESIGN_RTL_URL . '/assets/css/rtl-pdf.css'); // external rtl pdf css
-            $stylesheet .= $style_data;
+           // $stylesheet .= $style_data;
             return $stylesheet;
         }
 
