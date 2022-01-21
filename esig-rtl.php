@@ -7,7 +7,7 @@
  * Plugin URI:        http://approveme.me/wp-digital-e-signature
  * Description:       Adds Right-to-left (RTL) support to Agreement page & Admin Area of E-signature.
  * Version:           1.5.7.1
- * Author:            Approve Me
+ * Author:            ApproveMe.com
  * Author URI:        https://www.approveme.com/
  */
 // If this file is called directly, abort.
