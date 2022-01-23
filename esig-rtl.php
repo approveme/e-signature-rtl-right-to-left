@@ -28,11 +28,12 @@ if (!class_exists("Esig_RTL")):
             add_filter("esig-pdf-export-stylesheet", array($this, "esig_rtl_pdf_styles"), 10, 1);
         }
 
-        public function esig_rtl_pdf_styles($stylesheet) {
-
+        public function esig_rtl_pdf_styles($pdf) {
+            if(is_rtl() == '1'){
             $style_data = file_get_contents(ESIGN_RTL_URL . '/assets/css/rtl-pdf.css'); // external rtl pdf css
-           // $stylesheet .= $style_data;
-            return $stylesheet;
+          //  $stylesheet .= $style_data;          
+            return $style_data;
+            }
         }
 
         public function esig_requirement_fallback() {
