@@ -95,10 +95,6 @@ a:link
     min-height:600px;
     direction: rtl;
 }
-#an-admin{
-    position: relative;
-    right: -500px;    
-}  
 
 .doc_page .post-password-form
 {
@@ -264,7 +260,14 @@ a:link
     text-decoration: none;
     color: #efefef;	
 }
-
+.esig-container
+{
+    direction: rtl;
+}
+.esig-container .footer-btn
+{
+   flex: none !important;
+}
 .agree-container
 {
     margin-right: 5px;
@@ -630,10 +633,6 @@ a:link
     left: 7%;  
 }
 
-.agree-container{
-    position: relative;
-    right: -555px;         
-}
 
 .esig-template-page .sig-tooltip.active 
 {
@@ -662,8 +661,7 @@ a:link
     bottom: 15px;
     text-align: left;
     float:left;
-    left:-230px;
-
+   
 }
 
 
@@ -683,10 +681,6 @@ a:link
     left:750px;
 }
 
-#downloadLink,#print-agree-button{
-    position: relative;
-    left:-1000px;  
-}
 
 /* audit trail pdf Document */
 
@@ -1023,6 +1017,8 @@ table.responsive-table {
     margin-right: 10px;
     margin-left: 10px;
     font-size: 13px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #audit-trail-wrapper .bottom-footer > div{
