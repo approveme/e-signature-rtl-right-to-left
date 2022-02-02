@@ -1021,3 +1021,21 @@ position:relative ; margin:5px;
     
     float: right !important;
 }
+.esig-access-dialog {
+    margin-right: 33% !important;
+}
+.second-layer{
+    right: 10px !important;
+}
+#recipient_emails #signer_main .text-left {
+    text-align: right !important;
+}
+span.deleteIcon{
+    right: 15px !important;
+}
+#recipient_emails #signer_main .leftPadding-5 {
+    padding-right: 5px !important;   
+}
+.form-inline .container-fluid .row{
+    margin-right:0px;
+}

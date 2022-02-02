@@ -4,8 +4,7 @@
 body
 {
     background:#efefef!important;
-
-    unicode-bidi: embed;
+     unicode-bidi: embed;
 }
 
 a:hover
@@ -229,10 +228,7 @@ a:link
     left:230px !important;   
 }
 
-.footer-btn
-{
-    padding: 13px;
-}
+
 
 
 
@@ -679,6 +675,9 @@ a:link
     text-shadow: none;
     position: relative;
     left:750px;
+}
+.sig-tooltip.active {
+    right: -100px !important;
 }
 
 
