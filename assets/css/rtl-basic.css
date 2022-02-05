@@ -625,8 +625,11 @@ a:link
 }
 
 #esign_click_submit{
+
+    /*
     position: absolute;
     left: 7%;  
+    */
 }
 
 
@@ -634,7 +637,7 @@ a:link
 {
     margin-top: -10px !important;
     min-width: 290px;
-    left: -50px;
+    left: 13px;
 
 }
 
