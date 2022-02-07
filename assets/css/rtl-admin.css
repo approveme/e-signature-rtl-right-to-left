@@ -1039,3 +1039,9 @@ span.deleteIcon{
 .form-inline .container-fluid .row{
     margin-right:0px;
 }
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.esig-access-dialog.ui-draggable.ui-resizable {
+    margin-right: 35% !important;
+}
+#submit_send_layer {
+    left: 25px;
+}

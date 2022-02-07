@@ -684,6 +684,9 @@ a:link
     text-align: right !important;
         
 }
+span.header-title {
+    padding-right: 15px;
+}
 
 
 /* audit trail pdf Document */
