@@ -1045,3 +1045,6 @@ span.deleteIcon{
 #submit_send_layer {
     left: 25px;
 }
+#esig-view-signer-add .text-left{
+  text-align: right!important;
+}
