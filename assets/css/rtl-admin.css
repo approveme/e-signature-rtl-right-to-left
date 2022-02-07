@@ -1033,7 +1033,10 @@ position:relative ; margin:5px;
 span.deleteIcon{
     right: 15px !important;
 }
-#recipient_emails #signer_main .leftPadding-5 {
+#recipient_emails #signer_main .leftPadding-5{
+    padding-right: 5px !important;   
+}
+#cc_recipient_emails .leftPadding-5 {
     padding-right: 5px !important;   
 }
 .form-inline .container-fluid .row{
@@ -1047,4 +1050,8 @@ span.deleteIcon{
 }
 #esig-view-signer-add .text-left{
   text-align: right!important;
+}
+#cc_recipient_emails .text-left {
+    text-align: right!important;
+    padding-left: 10px;
 }
