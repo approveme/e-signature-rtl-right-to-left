@@ -626,10 +626,10 @@ a:link
 
 #esign_click_submit{
 
-    /*
+    
     position: absolute;
     left: 7%;  
-    */
+    
 }
 
 
@@ -681,6 +681,8 @@ a:link
 }
 .sig-tooltip.active {
     right: -100px !important;
+    text-align: right !important;
+        
 }
 
 
