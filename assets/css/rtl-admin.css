@@ -1059,3 +1059,10 @@ span.deleteIcon{
     padding-left: 20px;
     padding-top: 5px;
 }
+#esign-terms-goback {
+    float: right;
+}
+#esign-terms-content {
+    text-align: right;
+    float: right;
+}
