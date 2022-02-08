@@ -1066,3 +1066,9 @@ span.deleteIcon{
     text-align: right;
     float: right;
 }
+.sif_advanced_button_area {
+    margin-left: -35px;
+}
+.sif_popup_main_todaydate {
+    text-align: right;
+}
