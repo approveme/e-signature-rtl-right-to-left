@@ -1072,3 +1072,11 @@ span.deleteIcon{
 .sif_popup_main_todaydate {
     text-align: right;
 }
+#submit_save_stand {
+   
+    float: right;
+}
+#submit_send_stand {
+    float: right;
+    margin-left: 10px;
+}
