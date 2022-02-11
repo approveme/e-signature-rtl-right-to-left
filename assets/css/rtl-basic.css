@@ -627,7 +627,7 @@ a:link
 #esign_click_submit{
 
     
-    position: absolute;
+   /* position: absolute;*/
     left: 7%;  
     
 }
@@ -1004,14 +1004,17 @@ table.responsive-table {
 #audit-trail-wrapper .footer {
     background: #F3F3F4 !important;
     padding: 10px 45px;
+    padding-bottom: 25px;
     margin: 100px -15px 0px;
     page-break-inside: avoid;
 }
+
 
 #audit-trail-wrapper .footer .text {
     max-width: 435px;
     padding: 15px 5px !important;
     font-size: 16px;
+    margin-top: 20px !important;
 }
 
 #audit-trail-wrapper .footer .right {
