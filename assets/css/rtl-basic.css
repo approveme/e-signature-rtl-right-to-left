@@ -895,7 +895,7 @@ span.header-title {
     margin-top: 50px;
 }
 
-#main-signature .form-inline div {
+#main-signature .form-inline .col-sm-6{
     float: right;
 }
 
