@@ -862,6 +862,7 @@ span.header-title {
 
 #audit-trail-wrapper .signer-view{
     margin-top: 60px;
+    padding-bottom: 80px;
 }
 
 #audit-trail-wrapper .signer-view:first-child{
