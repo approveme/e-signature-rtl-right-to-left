@@ -149,7 +149,18 @@ body
    
 }
 
+.pdf-signature-pad
+{
+    display:table; 
+    height: 100px;
+}
 
-
+.sign-text-pdf
+{
+    position: relative;
+    padding-left:25px;
+    width:100% ; 
+    line-height: 1;
+}
 
 
