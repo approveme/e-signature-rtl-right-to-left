@@ -26,6 +26,18 @@ if (!class_exists("Esig_RTL")):
 
             add_action("admin_notices", array($this, "esig_requirement_fallback"));
             add_filter("esig-pdf-export-stylesheet", array($this, "esig_rtl_pdf_styles"), 10, 1);
+            add_filter("esign-rtl-signature-margin", array($this, "rtl_signature_margin"), 10, 1);
+        }
+
+        public function rtl_signature_margin($signatureLeanth) {           
+            
+            if ($signatureLeanth <= 40){
+                $margin = "margin-top:14%;";
+            }else{
+                $margin = "margin-top:2%;";
+            }                  
+            return $margin;
+            
         }
 
         public function esig_rtl_pdf_styles($pdf) {
