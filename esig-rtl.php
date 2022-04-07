@@ -26,13 +26,26 @@ if (!class_exists("Esig_RTL")):
 
             add_action("admin_notices", array($this, "esig_requirement_fallback"));
             add_filter("esig-pdf-export-stylesheet", array($this, "esig_rtl_pdf_styles"), 10, 1);
+            add_filter("esign-rtl-signature-margin", array($this, "rtl_signature_margin"), 10, 1);
         }
 
-        public function esig_rtl_pdf_styles($stylesheet) {
+        public function rtl_signature_margin($signatureLeanth) {           
+            
+            if ($signatureLeanth <= 40){
+                $margin = "margin-top:14%;";
+            }else{
+                $margin = "margin-top:2%;";
+            }                  
+            return $margin;
+            
+        }
 
+        public function esig_rtl_pdf_styles($pdf) {
+            if(is_rtl() == '1'){
             $style_data = file_get_contents(ESIGN_RTL_URL . '/assets/css/rtl-pdf.css'); // external rtl pdf css
-            $stylesheet .= $style_data;
-            return $stylesheet;
+          //  $stylesheet .= $style_data;          
+            return $style_data;
+            }
         }
 
         public function esig_requirement_fallback() {

@@ -971,3 +971,112 @@ position:relative ; margin:5px;
     direction: rtl;
   
 }
+
+
+/*
+ * new fixes for admin dasboard
+ */
+
+ .esign-form-header{
+    text-align: right;
+ }
+ .esig-inside .container-fluid p {
+    text-align: right;
+}
+.esig-section-title {
+    text-align: right;
+}
+.esig-inside .tooltip {
+    float: right;
+    margin-left: 20px;
+}
+.esig-edit-screen-print-pdf-section {
+    padding-right: 2%;
+    text-align: right;
+}
+.sad-page-auto-creation-container .sad-auto-section-row {
+   
+    text-align: right;
+   
+}
+.thickbox-loading{
+    margin-top: 0px !important;
+}
+#page-loader-admin
+{
+    right:25% !important;
+
+}
+
+.esig-postbox-container{
+    float: left !important;
+}
+#esig-settings-col2,.esig-settings-col2 h4 {
+    float: right !important;
+    text-align: right !important;
+   
+}
+
+.esig-settings-form td,.esig-settings-form .tooltip {
+    
+    float: right !important;
+}
+.esig-access-dialog {
+    margin-right: 33% !important;
+}
+.second-layer{
+    right: 10px !important;
+}
+#recipient_emails #signer_main .text-left {
+    text-align: right !important;
+}
+span.deleteIcon{
+    right: 15px !important;
+}
+#recipient_emails #signer_main .leftPadding-5{
+    padding-right: 5px !important;   
+}
+#cc_recipient_emails .leftPadding-5 {
+    padding-right: 5px !important;   
+}
+.form-inline .container-fluid .row{
+    margin-right:0px;
+}
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.esig-access-dialog.ui-draggable.ui-resizable {
+    margin-right: 35% !important;
+}
+#submit_send_layer {
+    left: 25px;
+}
+#esig-view-signer-add .text-left{
+  text-align: right!important;
+}
+#cc_recipient_emails .text-left {
+    text-align: right!important;
+    padding-left: 10px;
+}
+.inside.esigactiveinside p {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#esign-terms-goback {
+    float: right;
+}
+#esign-terms-content {
+    text-align: right;
+    float: right;
+}
+.sif_advanced_button_area {
+    margin-left: -35px;
+}
+.sif_popup_main_todaydate {
+    text-align: right;
+}
+#submit_save_stand {
+   
+    float: right;
+}
+#submit_send_stand {
+    float: right;
+    margin-left: 10px;
+}

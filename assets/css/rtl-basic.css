@@ -4,8 +4,7 @@
 body
 {
     background:#efefef!important;
-
-    unicode-bidi: embed;
+     unicode-bidi: embed;
 }
 
 a:hover
@@ -95,10 +94,6 @@ a:link
     min-height:600px;
     direction: rtl;
 }
-#an-admin{
-    position: relative;
-    right: -500px;    
-}  
 
 .doc_page .post-password-form
 {
@@ -233,10 +228,7 @@ a:link
     left:230px !important;   
 }
 
-.footer-btn
-{
-    padding: 13px;
-}
+
 
 
 
@@ -264,7 +256,14 @@ a:link
     text-decoration: none;
     color: #efefef;	
 }
-
+.esig-container
+{
+    direction: rtl;
+}
+.esig-container .footer-btn
+{
+   flex: none !important;
+}
 .agree-container
 {
     margin-right: 5px;
@@ -626,18 +625,20 @@ a:link
 }
 
 #esign_click_submit{
-    position: absolute;
+
+    
+   /* position: absolute;*/
     left: 7%;  
+    
 }
 
-.agree-container{
-    position: relative;
-    right: -555px;         
-}
 
 .esig-template-page .sig-tooltip.active 
 {
-    margin-top: -45px !important;
+    margin-top: -10px !important;
+    min-width: 290px;
+    left: 13px;
+
 }
 
 .instructions{
@@ -659,8 +660,7 @@ a:link
     bottom: 15px;
     text-align: left;
     float:left;
-    left:-230px;
-
+   
 }
 
 
@@ -677,16 +677,17 @@ a:link
 {
     text-shadow: none;
     position: relative;
-    left:400px;
-    top: 20px;
-
-
+    left:750px;
+}
+.sig-tooltip.active {
+    right: -100px !important;
+    text-align: right !important;
+        
+}
+span.header-title {
+    padding-right: 15px;
 }
 
-#downloadLink,#print-agree-button{
-    position: relative;
-    left:-900px;  
-}
 
 /* audit trail pdf Document */
 
@@ -796,7 +797,7 @@ a:link
 }
 
 #audit-trail-wrapper .main .info .bio {
-    padding-right: 24px;
+    padding-right: 50px;
     margin-top: -4px;
     width: 370px;
     box-sizing: border-box;
@@ -861,6 +862,7 @@ a:link
 
 #audit-trail-wrapper .signer-view{
     margin-top: 60px;
+    padding-bottom: 80px;
 }
 
 #audit-trail-wrapper .signer-view:first-child{
@@ -890,6 +892,11 @@ a:link
 
 #audit-trail-wrapper .main .history table {
     font-size: 14px;
+    margin-top: 50px;
+}
+
+#main-signature .form-inline .col-sm-6{
+    float: right;
 }
 
 table td,
@@ -986,8 +993,7 @@ table.responsive-table {
 #audit-trail-wrapper .main .history table tr td:first-child,
 #audit-trail-wrapper .main .history table th:first-child{
     padding: .5em 0 !important;
-    /*max-width: 155px;*/
-    /*max-width: 135px;*/
+    text-align: right;
 }
 
 #audit-trail-wrapper .main .history .time{
@@ -998,14 +1004,17 @@ table.responsive-table {
 #audit-trail-wrapper .footer {
     background: #F3F3F4 !important;
     padding: 10px 45px;
+    padding-bottom: 25px;
     margin: 100px -15px 0px;
     page-break-inside: avoid;
 }
 
+
 #audit-trail-wrapper .footer .text {
     max-width: 435px;
-    padding: 30px 10px;
+    padding: 15px 5px !important;
     font-size: 16px;
+    margin-top: 20px !important;
 }
 
 #audit-trail-wrapper .footer .right {
@@ -1019,6 +1028,8 @@ table.responsive-table {
     margin-right: 10px;
     margin-left: 10px;
     font-size: 13px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #audit-trail-wrapper .bottom-footer > div{
@@ -1070,6 +1081,10 @@ table.responsive-table {
     height: auto;
 }
 
+.esig-icon-doorkey{
+    padding-left: 20px;
+}
+
 /*PLUGIN FIXES*/
 
 #audit-trail-wrapper .row {
@@ -1110,6 +1125,7 @@ table.responsive-table {
     #audit-trail-wrapper .main .history table th:first-child{
         padding-right: 25% !important;
         max-width: inherit;
+        text-align: right;
     }
 
     .left,
@@ -1152,7 +1168,7 @@ table.responsive-table {
     }
 
     #audit-trail-wrapper .main .info .bio {
-        padding-right: 10px;
+        padding-right: 50px;
     }
 
     #audit-trail-wrapper .main .checksum .col {

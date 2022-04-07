@@ -236,6 +236,7 @@ a:link
 .footer-btn
 {
     padding: 13px;
+    text-align: left !important;
 }
 
 .footer-agree
