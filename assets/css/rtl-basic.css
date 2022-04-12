@@ -635,7 +635,6 @@ a:link
 
 .esig-template-page .sig-tooltip.active 
 {
-    margin-top: -10px !important;
     min-width: 290px;
     left: 13px;
 
