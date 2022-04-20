@@ -1,3 +1,4 @@
+
 div
 { 
     direction: rtl !important;
@@ -7,34 +8,43 @@ body
     direction: rtl !important; 
     unicode-bidi: embed;
 }
+.doc_page{
+    direction: rtl !important; 
+    unicode-bidi: embed;
+}
 .document_id
 { 
     margin-right: 5px;   
 }
 
-.doc_title
-{ 
-    direction: rtl;
-    unicode-bidi: embed;
-    display: block;
-    width: 100%;
+.signatures 
+{
+    position: relative ;
+    display : block ; 
+    width:100% ;
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+    margin-top:50px;
+   
 }
+
+.signature-left 
+{
+    display:inline-block ; 
+    float:right ;
+    text-align:right ;
+    max-height: 100px;
+    width:50% ; 
+    font-family: 'Open Sans', sans-serif,chinese-msyh;
+}
+
 
 .signed_on 
 { 
     margin-right: 5px;    
 }
 
-.signatures
-{ 
-    position: absolute; 
-}
 
-.signature-left
-{
-    margin-right: 5px;
-    margin-left: 450px;
-}
+
 .footer-left
 { 
     float: right; 
@@ -45,6 +55,25 @@ body
     float: left; 
     text-align: left;
 }
+.doc_title{
+   
+    text-align: right ;
+    font-size: 26px ;
+    font-weight: 200;
+    
+}
+
+.document-info .left
+{ 
+    float: right ; 
+    text-align: right ;  
+}
+
+.document-info .right
+{ 
+    float: left; 
+    text-align: left;  
+}
 
 #audit-trail-wrapper .document-info .left
 { 
@@ -53,7 +82,7 @@ body
 }
 #audit-trail-wrapper .main .signer-view .info .left
 {
-    float:right !important ; 
+    float:right ; 
 }
 #audit-trail-wrapper .main .user
 {
@@ -61,7 +90,8 @@ body
 }
 #audit-trail-wrapper .main .signer-view .checksum .checksum-caption
 {
-    float: right !important;
+    float: right ;
+	text-align: left;
 }
 
 .audit-pdf-bottom-footer .audit-pdf-site-url
@@ -69,3 +99,68 @@ body
     text-align: left;
     padding: 0;
 }
+.rtl-signer-id{
+	padding-right: 30px;
+}
+
+
+.footer-left 
+{
+      position : relative ;
+      display : block ;
+      float:right ;
+      width:20% ;
+     
+}
+
+.footer-right 
+{
+      position : relative ;
+      display : block ;
+      float:left;
+      width:80% ; 
+      text-align:left ; 
+}
+
+
+#main-signature .form-inline div {
+    float: right;
+}
+.signer-view .info{
+    padding-bottom: 30px;
+}
+
+#audit-trail-wrapper .header .row .left {
+    display: inline-block;
+    float:left;
+    width:75%;
+    margin-left: 160px ;
+    
+}
+#audit-trail-wrapper .header .row  .right {
+    display: inline-block;
+    float:right;
+    width:20%;
+    text-align: center;
+    font-size:10px;
+    font-weight: normal;
+    margin-right: 500px ;
+    margin-top: -70px ;
+   
+}
+
+.pdf-signature-pad
+{
+    display:table; 
+    height: 100px;
+}
+
+.sign-text-pdf
+{
+    position: relative;
+    padding-left:25px;
+    width:100% ; 
+    line-height: 1;
+}
+
+
