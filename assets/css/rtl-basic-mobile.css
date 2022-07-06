@@ -625,6 +625,9 @@ table.responsive-table td:nth-child(2):before {
   padding-right: 30% !important; 
     text-align: right;
 }
+#audit-trail-wrapper .header {
+    padding-left: 15px;
+}
 }
 
 table.display td, table.display th {
@@ -644,7 +647,11 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     }
 
     .signatures .form-inline .col-sm-6 {
-        float: right;
+        float: right ;
+    }
+    .signatures .col-sm-6 {
+        float: right !important;
+        margin-left: 1px !important;
     }
 
     .blog-url.pdf-blog-url {
@@ -660,5 +667,27 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     #audit-trail-wrapper .left{
         float: right !important;
     }
+
+    .esig-right{
+        float:left !important;
+        text-align: left !important;
+    }
+    .esig-left{
+        float:right !important;
+    }
+    #mobile-adopt-sign {
+        float: left !important;
+    }
+
+    .container.sig-header-next-page div {
+        float: right !important;
+    }
+    .container.signature-description-nextpage {
+        padding-top: 20px;
+    }
+    .col.left.rtl-signature-certificate {
+        width: 70%;
+    }
+   
 }
 
