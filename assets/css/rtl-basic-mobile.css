@@ -691,3 +691,18 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
    
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .signatures .col-sm-6 {
+        float: right;
+    }
+
+    .blog-url.pdf-blog-url {
+        float: right ;
+    }
+    .audit-signature.pull-right {
+        float: left !important;
+        margin-left: 5px !important;
+        margin-right: 0px !important;
+    }
+   }
+
