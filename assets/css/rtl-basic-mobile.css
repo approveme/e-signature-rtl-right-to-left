@@ -639,6 +639,18 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     padding-right: 30% !important;
 }
 
+#mobile-adopt-sign {
+    float: left !important;
+    padding-bottom: 10px;
+}
+
+.sig-header-next-page div:first-child {
+    float: right !important;
+}
+.container.signature-description-nextpage {
+    padding-top: 10px;
+}
+
 @media(orientation: landscape) {
 
     .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
@@ -675,9 +687,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     .esig-left{
         float:right !important;
     }
-    #mobile-adopt-sign {
-        float: left !important;
-    }
+    
 
     .container.sig-header-next-page div {
         float: right !important;
