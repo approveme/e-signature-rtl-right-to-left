@@ -706,6 +706,15 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     .col.left.rtl-signature-certificate {
         width: 70%;
     }
+
+    .blog-url.pdf-blog-url {
+        float: right ;
+    }
+    .audit-signature.pull-right {
+        float: left !important;
+        margin-left: 5px !important;
+        margin-right: 0px !important;
+    }   
    
 }
 
