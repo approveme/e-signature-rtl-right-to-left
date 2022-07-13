@@ -731,5 +731,20 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         margin-left: 5px !important;
         margin-right: 0px !important;
     }
-   }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+
+    .audit-wrapper #audit-trail-wrapper .main .history table tbody tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
+        padding-right: 30% !important;
+        
+    }
+
+    #audit-trail-wrapper .info .left,#audit-trail-wrapper .header .document-info .logo{
+        float:none !important;
+    }
+
+    
+}
+
 
