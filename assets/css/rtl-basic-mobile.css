@@ -628,6 +628,14 @@ table.responsive-table td:nth-child(2):before {
 #audit-trail-wrapper .header {
     padding-left: 15px;
 }
+.esig-right{
+    float:left !important;
+    text-align: left !important;
+}
+.esig-left{
+    float:right !important;
+}
+
 }
 
 table.display td, table.display th {
