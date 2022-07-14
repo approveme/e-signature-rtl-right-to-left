@@ -641,7 +641,7 @@ table.responsive-table td:nth-child(2):before {
 table.display td, table.display th {
 text-align: right;
 }
-
+`
 table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     padding-left: 0% !important;
     padding-right: 30% !important;
@@ -714,7 +714,12 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         float: left !important;
         margin-left: 5px !important;
         margin-right: 0px !important;
-    }   
+    }
+    
+    #audit-trail-wrapper .main .info .sign{
+        width: 220px !important;
+    }
+    
    
 }
 
@@ -746,5 +751,37 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
 
     
 }
+
+@media only screen and (max-width: 779px){
+    #audit-trail-wrapper .header .document-info .logo{
+        float:none !important;
+    }
+
+    #audit-trail-wrapper .main .info .user, #audit-trail-wrapper .main .info .bio, #audit-trail-wrapper .main .info .sign {
+        float: none !important;
+        
+    }
+
+    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
+         padding-right: 30% !important;
+    }
+}
+
+
+@media only screen and (max-width: 779px){
+    #audit-trail-wrapper .header .document-info .logo{
+        float:none !important;
+    }
+
+    #audit-trail-wrapper .main .info .user, #audit-trail-wrapper .main .info .bio, #audit-trail-wrapper .main .info .sign {
+        float: none !important;
+        
+    }
+
+    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
+         padding-right: 30% !important;
+    }
+}
+
 
 
