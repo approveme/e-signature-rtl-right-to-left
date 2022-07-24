@@ -719,6 +719,10 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     #audit-trail-wrapper .main .info .sign{
         width: 220px !important;
     }
+
+    #audit-trail-wrapper .left {
+        margin-left: unset !important;
+    }
     
    
 }
