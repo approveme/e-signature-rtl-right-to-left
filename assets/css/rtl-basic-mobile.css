@@ -721,7 +721,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     }
 
     #audit-trail-wrapper .left {
-        margin-left: unset !important;
+     /*  margin-left: unset !important; */
     }
     
    
