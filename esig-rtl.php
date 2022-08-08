@@ -101,7 +101,11 @@ if (!class_exists("Esig_RTL")):
         }
 
         public function esig_rtl_frontend_styles() {
-            echo "<link rel='stylesheet' id='esig-rtl-css'  href='" . plugins_url('assets/css/rtl.css', __FILE__) . "' type='text/css' media='all' />";
+            if (wp_is_mobile()) {
+                echo "<link rel='stylesheet' id='esig-rtl-css-basic'  href='" . plugins_url('assets/css/rtl-basic-mobile.css', __FILE__) . "' type='text/css' media='all' />";
+            } else{
+                 echo "<link rel='stylesheet' id='esig-rtl-css'  href='" . plugins_url('assets/css/rtl.css', __FILE__) . "' type='text/css' media='all' />";
+            }           
         }
 
         public function esig_rtl_basic_pdf_styles() {

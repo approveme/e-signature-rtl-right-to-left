@@ -572,3 +572,220 @@ a:link
     direction: rtl;
 }
 
+
+table.responsive-table td:nth-child(1):before,
+table.responsive-table td:nth-child(2):before {
+    position: absolute;
+    right: .5em;
+    font-weight: 700
+}
+.audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child,
+.audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
+    padding-left: 1% !important; 
+  padding-right: 30% !important; 
+    text-align: right;
+}
+
+table.display td, table.display th {
+text-align: right;
+}
+
+table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
+    padding-left: 0% !important;
+    padding-right: 30% !important;
+}
+
+
+
+
+
+
+
+#audit-trail-wrapper .header .logo{
+    padding-top: 0px !important;
+}
+
+#audit-trail-wrapper .header .subcaption .image-wrapper{
+    padding-left: 5px !important;
+}
+
+
+
+table.responsive-table td:nth-child(1):before,
+table.responsive-table td:nth-child(2):before {
+    position: absolute;
+    right: .5em;
+    font-weight: 700
+}
+
+@media(orientation:portrait) {
+.audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child,
+.audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
+    padding-left: 1% !important; 
+  padding-right: 30% !important; 
+    text-align: right;
+}
+#audit-trail-wrapper .header {
+    padding-left: 15px;
+}
+.esig-right{
+    float:left !important;
+    text-align: left !important;
+}
+.esig-left{
+    float:right !important;
+}
+
+}
+
+table.display td, table.display th {
+text-align: right;
+}
+`
+table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
+    padding-left: 0% !important;
+    padding-right: 30% !important;
+}
+
+#mobile-adopt-sign {
+    float: left !important;
+    padding-bottom: 10px;
+}
+
+.sig-header-next-page div:first-child {
+    float: right !important;
+}
+.container.signature-description-nextpage {
+    padding-top: 10px;
+}
+
+@media(orientation: landscape) {
+
+    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
+        padding-right: 0px !important;
+        
+    }
+
+    .signatures .form-inline .col-sm-6 {
+        float: right ;
+    }
+    .signatures .col-sm-6 {
+        float: right !important;
+        margin-left: 1px !important;
+    }
+
+    .blog-url.pdf-blog-url {
+        float: left;
+    }
+
+    #audit-trail-wrapper .header .logo {
+      
+        float: left !important;
+        padding-left: 20px !important;
+    }
+
+    #audit-trail-wrapper .left{
+        float: right !important;
+    }
+
+    .esig-right{
+        float:left !important;
+        text-align: left !important;
+    }
+    .esig-left{
+        float:right !important;
+    }
+    
+
+    .container.sig-header-next-page div {
+        float: right !important;
+    }
+    .container.signature-description-nextpage {
+        padding-top: 20px;
+    }
+    .col.left.rtl-signature-certificate {
+        width: 70%;
+    }
+
+    .blog-url.pdf-blog-url {
+        float: right ;
+    }
+    .audit-signature.pull-right {
+        float: left !important;
+        margin-left: 5px !important;
+        margin-right: 0px !important;
+    }
+    
+    #audit-trail-wrapper .main .info .sign{
+        width: 220px !important;
+    }
+
+    #audit-trail-wrapper .left {
+     /*  margin-left: unset !important; */
+    }
+    
+   
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .signatures .col-sm-6 {
+        float: right;
+    }
+
+    .blog-url.pdf-blog-url {
+        float: right ;
+    }
+    .audit-signature.pull-right {
+        float: left !important;
+        margin-left: 5px !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+
+    .audit-wrapper #audit-trail-wrapper .main .history table tbody tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
+        padding-right: 30% !important;
+        
+    }
+
+    #audit-trail-wrapper .info .left,#audit-trail-wrapper .header .document-info .logo{
+        float:none !important;
+    }
+
+    
+}
+
+@media only screen and (max-width: 779px){
+    #audit-trail-wrapper .header .document-info .logo{
+        float:none !important;
+    }
+
+    #audit-trail-wrapper .main .info .user, #audit-trail-wrapper .main .info .bio, #audit-trail-wrapper .main .info .sign {
+        float: none !important;
+        
+    }
+
+    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
+         padding-right: 30% !important;
+    }
+}
+
+
+@media only screen and (max-width: 779px){
+    #audit-trail-wrapper .header .document-info .logo{
+        float:none !important;
+    }
+
+    #audit-trail-wrapper .main .info .user, #audit-trail-wrapper .main .info .bio, #audit-trail-wrapper .main .info .sign {
+        float: none !important;
+        
+    }
+
+    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
+         padding-right: 30% !important;
+    }
+}
+
+
+
