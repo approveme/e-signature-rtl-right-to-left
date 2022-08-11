@@ -717,15 +717,18 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     }
     
     #audit-trail-wrapper .main .info .sign{
-        width: 220px !important;
+        width: 200px !important;
     }
 
-    #audit-trail-wrapper .left {
-     /*  margin-left: unset !important; */
-    }
-    
    
 }
+
+@media only screen and (min-width: 775px) and (max-width: 785px) and (orientation: landscape) {
+    #audit-trail-wrapper .main .info .sign{
+        width: 195px !important;
+    }
+}
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .signatures .col-sm-6 {
