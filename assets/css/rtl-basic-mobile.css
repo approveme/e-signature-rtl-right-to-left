@@ -671,7 +671,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     }
     .signatures .col-sm-6 {
         float: right !important;
-        margin-left: 30px !important;
+        margin-left: 8% !important;
     }
 
     .blog-url.pdf-blog-url {
