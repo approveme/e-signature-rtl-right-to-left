@@ -641,7 +641,7 @@ table.responsive-table td:nth-child(2):before {
 table.display td, table.display th {
 text-align: right;
 }
-`
+
 table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     padding-left: 0% !important;
     padding-right: 30% !important;
