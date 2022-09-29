@@ -612,13 +612,13 @@ a:link
 
 .rtl-weapper
 {
-    position: absolute;
+   /* position: absolute; */
     right:-10px;    
 }
 
 .rtl-weapper-text
 {
-    position: relative;
+   /* position: relative; */
     left:150px;   
 }
 
