@@ -1345,3 +1345,19 @@ table.responsive-table
     }
 }
 
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    margin-right: -20px;
+    margin-top: 0.5%;
+}
+
+
+.checkbox input[type=radio] {
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.checkbox-inline, .radio-inline {
+    padding-left: 30px;
+   
+}
