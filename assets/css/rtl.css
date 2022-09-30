@@ -948,7 +948,7 @@ a:link
 
 table td,table th 
 {    
-    text-align: right;
+    text-align: right !important;
 }
 
 table.layout 
@@ -1360,4 +1360,8 @@ table.responsive-table
 .checkbox-inline, .radio-inline {
     padding-left: 30px;
    
+}
+
+.history {
+    padding-top: 8%;
 }
