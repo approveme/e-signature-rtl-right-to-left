@@ -583,7 +583,7 @@ table.responsive-table td:nth-child(2):before {
 .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
     /* padding-left: 1% !important;  */
 /*  padding-right: 30% !important; */
-    text-align: left;
+    text-align: right;
 }
 
 table.display td, table.display th {
@@ -840,4 +840,6 @@ table.display td.time {
     }
 
   }
-
+  .modal.fade.esig-terms-modal-lg {
+  background-color: rgb(0 0 0 / 50%);
+  }
