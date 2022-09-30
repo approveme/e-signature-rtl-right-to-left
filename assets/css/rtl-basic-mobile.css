@@ -671,7 +671,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     }
     .signatures .col-sm-6 {
         float: right !important;
-        margin-left: 8% !important;
+       /* margin-left: 8% !important; */
     }
 
     .blog-url.pdf-blog-url {
@@ -831,3 +831,13 @@ table.display td.time {
 .sig-type{
     right: 45px;
 }
+
+
+
+@media (orientation: landscape) {
+    .signature-wrapper-displayonly .sign-here{
+        width: unset !important;
+    }
+
+  }
+
