@@ -843,3 +843,10 @@ table.display td.time {
   .modal.fade.esig-terms-modal-lg {
   background-color: rgb(0 0 0 / 50%);
   }
+  @media only screen and (min-width: 768px){
+  .rtl-sign-contracts{
+    flex: 0.4 !important;
+    text-align: left !important;
+    }
+  }
+   
