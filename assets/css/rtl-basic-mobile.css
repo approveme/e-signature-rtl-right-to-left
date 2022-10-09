@@ -849,4 +849,9 @@ table.display td.time {
     text-align: left !important;
     }
   }
-   
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .signature-wrapper-displayonly-signed .signed {
+      background-position: right bottom !important;
+  }  
+}
