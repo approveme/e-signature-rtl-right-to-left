@@ -859,3 +859,7 @@ table.display td.time {
 .document-sign-page #audit-trail-wrapper .main .info .sign {
     border: none;
 }
+
+#audit-trail-wrapper .main .row {
+    margin-bottom: 30px !important;
+}
