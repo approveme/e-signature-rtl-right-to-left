@@ -848,11 +848,7 @@ table.display td.time {
     flex: 0.4 !important;
    
     }
-  }
-
-.signature-wrapper-displayonly-signed .signed {
-      background-position: right bottom !important;
-}  
+  } 
 
 .document-sign-page #audit-trail-wrapper .main .info .sign {
     border: none;
