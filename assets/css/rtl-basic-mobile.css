@@ -859,7 +859,11 @@ table.display td.time {
 }
 
 .dfc-image img {
-    vertical-align: bottom !important; 
+    vertical-align: bottom !important;    
+}
+
+.dfc-image{
+    height: 30px !important;   
 }
 
 .row>*{
