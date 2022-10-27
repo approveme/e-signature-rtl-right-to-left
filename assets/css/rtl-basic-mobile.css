@@ -870,3 +870,11 @@ table.display td.time {
 padding-right: 0px !important; 
 padding-left: 0px !important; 
 }
+
+#audit-trail-wrapper .page-url-qr .wrapper{
+    width: 111px;
+}
+
+#audit-trail-wrapper img{
+    vertical-align: middle !important;
+}
