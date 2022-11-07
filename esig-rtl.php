@@ -6,7 +6,7 @@
  * Plugin Name:       WP E-Signature - RTL
  * Plugin URI:        http://approveme.me/wp-digital-e-signature
  * Description:       Adds Right-to-left (RTL) support to Agreement page & Admin Area of E-signature.
- * Version:           1.6.9
+ * Version:           1.7.3
  * Author:            ApproveMe.com
  * Author URI:        https://www.approveme.com/
  */
@@ -101,7 +101,11 @@ if (!class_exists("Esig_RTL")):
         }
 
         public function esig_rtl_frontend_styles() {
-            echo "<link rel='stylesheet' id='esig-rtl-css'  href='" . plugins_url('assets/css/rtl.css', __FILE__) . "' type='text/css' media='all' />";
+            if (wp_is_mobile()) {
+                echo "<link rel='stylesheet' id='esig-rtl-css-basic'  href='" . plugins_url('assets/css/rtl-basic-mobile.css', __FILE__) . "' type='text/css' media='all' />";
+            } else{
+                 echo "<link rel='stylesheet' id='esig-rtl-css'  href='" . plugins_url('assets/css/rtl.css', __FILE__) . "' type='text/css' media='all' />";
+            }           
         }
 
         public function esig_rtl_basic_pdf_styles() {
