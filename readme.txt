@@ -27,6 +27,10 @@ Coming soon.
 
 
 == Changelog ==
+Version 1.7.6
+FIX: Mobile device responsive issue  
+FIX: Some minor issues
+
 Version 1.7.3
 FIX: Responsive issue  
 FIX: Some minor issues 
