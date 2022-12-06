@@ -612,13 +612,13 @@ a:link
 
 .rtl-weapper
 {
-    position: absolute;
+   /* position: absolute; */
     right:-10px;    
 }
 
 .rtl-weapper-text
 {
-    position: relative;
+   /* position: relative; */
     left:150px;   
 }
 
@@ -630,13 +630,13 @@ a:link
 
 #audit-trail-wrapper .document-info .left
 {
-    position: relative;
+  /*  position: relative; */
     left:250px;   
 }
 
 .rtl-sign-contracts
 {
-    position: relative;
+   /* position: relative;*/
     right:560px;     
 }
 
@@ -837,7 +837,7 @@ a:link
 
 #audit-trail-wrapper .main .info .bio 
 {    
-    padding-right: 24px;    
+    padding-right: 34px;    
     margin-top: -4px;    
     width: 370px;    
     box-sizing: border-box;
@@ -948,7 +948,7 @@ a:link
 
 table td,table th 
 {    
-    text-align: right;
+    text-align: right !important;
 }
 
 table.layout 
@@ -1345,3 +1345,23 @@ table.responsive-table
     }
 }
 
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    margin-right: -20px;
+    margin-top: 0.5%;
+}
+
+
+.checkbox input[type=radio] {
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.checkbox-inline, .radio-inline {
+    padding-left: 30px;
+   
+}
+
+.history {
+    padding-top: 8%;
+}
