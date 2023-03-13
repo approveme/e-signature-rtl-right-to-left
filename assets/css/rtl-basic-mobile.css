@@ -579,12 +579,7 @@ table.responsive-table td:nth-child(2):before {
     right: .5em;
     font-weight: 700
 }
-.audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child,
-.audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-    /* padding-left: 1% !important;  */
-/*  padding-right: 30% !important; */
-    text-align: right;
-}
+
 
 table.display td, table.display th {
 text-align: left;
@@ -619,12 +614,7 @@ table.responsive-table td:nth-child(2):before {
 }
 
 @media(orientation:portrait) {
-.audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child,
-.audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-/* padding-left: 1% !important;  */
-  /*  padding-right: 30% !important; */
-    text-align: right;
-}
+
 #audit-trail-wrapper .header {
     padding-left: 15px;
 }
@@ -661,10 +651,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
 
 @media(orientation: landscape) {
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-      /*  padding-right: 0px !important; */
-        
-    }
+ 
 
     .signatures .form-inline .col-sm-6 {
         float: right ;
@@ -747,10 +734,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tbody tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-      /*  padding-right: 30% !important; */
-        
-    }
+
 
     #audit-trail-wrapper .info .left,#audit-trail-wrapper .header .document-info .logo{
         float:none !important;
@@ -769,9 +753,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         
     }
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
-       /*  padding-right: 30% !important; */
-    }
+
 }
 
 
@@ -785,9 +767,6 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         
     }
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
-        /*  padding-right: 30% !important; */
-    }
 }
 .checkbox input[type=checkbox], .checkbox input[type=radio] {
     position: absolute;
@@ -877,4 +856,8 @@ padding-left: 0px !important;
 
 #audit-trail-wrapper img{
     vertical-align: middle !important;
+}
+
+table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-child(2):before{
+   left:unset !important;
 }
