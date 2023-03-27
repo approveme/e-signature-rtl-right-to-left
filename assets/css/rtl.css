@@ -1365,3 +1365,6 @@ table.responsive-table
 .history {
     padding-top: 8%;
 }
+.esig-template-page #esig-footer .sig-tooltip.active{
+    max-height: 250px !important;
+}
