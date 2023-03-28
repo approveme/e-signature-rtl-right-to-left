@@ -244,6 +244,7 @@ a:link
     background: #23282e;
     width: 100%;
     color: #fefefe;
+    direction: rtl;
     z-index: 200;
     padding: 15px;
     bottom:0;
@@ -695,7 +696,7 @@ a:link
 .agree-container .esig-sitename
 {
     text-shadow: none;
-    position: relative;
+   
     left:400px;
     top: 20px;
 }
@@ -1369,4 +1370,8 @@ table.responsive-table
 }
 .agree-container{
     margin-right: 10% !important; 
+}
+
+.esig-container .navbar-left{
+position: absolute !important;
 }
