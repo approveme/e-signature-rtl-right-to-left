@@ -243,7 +243,6 @@ a:link
 {
     background: #23282e;
     width: 100%;
-    direction: rtl;
     color: #fefefe;
     z-index: 200;
     padding: 15px;
@@ -1367,4 +1366,10 @@ table.responsive-table
 }
 .esig-template-page #esig-footer .sig-tooltip.active{
     max-height: 250px !important;
+}
+.
+element.style {
+}
+.agree-container{
+    margin-right: 10% !important; 
 }
