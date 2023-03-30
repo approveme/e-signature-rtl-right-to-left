@@ -634,7 +634,7 @@ text-align: left;
 
 table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
    
-    padding-right: 13% !important; 
+    padding-right: 25% !important; 
 }
 
 #mobile-adopt-sign {
@@ -784,7 +784,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
 @media only screen and (max-width: 780px){
 table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     padding-left: 3% !important;
-    padding-right: 13% !important;
+    padding-right: 25% !important;
 }
 table.responsive-table td span, table.responsive-table td span {
     position: relative !important;
