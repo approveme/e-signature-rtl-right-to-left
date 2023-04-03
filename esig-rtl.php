@@ -76,11 +76,7 @@ if (!class_exists("Esig_RTL")):
                 }
                 $document_type = $api->document->getDocumenttype($doc_id);
 
-                if ($document_type == "normal") {
-                    add_action("esig_head", array($this, "esig_rtl_basic_pdf_styles"));
-                } else {
-                    add_action("esig_head", array($this, "esig_rtl_frontend_styles"));
-                }
+                add_action("esig_head", array($this, "esig_rtl_frontend_styles"));
 
                 $current_screen = isset($_GET['page']) ? $_GET['page'] : '';
 
