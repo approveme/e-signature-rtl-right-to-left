@@ -701,11 +701,7 @@ a:link
     top: 20px;
 }
 
-#downloadLink,#print-agree-button
-{
-    position: relative;
-    left:-900px;  
-}
+
 
 /* audit trail pdf Document */
 .document-sign-page #audit-trail-wrapper
@@ -1372,6 +1368,8 @@ table.responsive-table
     margin-right: 10% !important; 
 }
 
-.esig-container .navbar-left{
-position: absolute !important;
+
+.col-sm-6 {
+    float: right !important;
+  
 }
