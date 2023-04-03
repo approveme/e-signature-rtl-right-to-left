@@ -862,3 +862,7 @@ padding-left: 0px !important;
 table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-child(2):before{
    left:unset !important;
 }
+
+.sig-middle .sig-draw-section{
+    width: 95% !important;
+}
