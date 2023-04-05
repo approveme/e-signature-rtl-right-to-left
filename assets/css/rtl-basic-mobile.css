@@ -875,3 +875,10 @@ table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-chi
 .sig-middle .sig-draw-section{
     width: 95% !important;
 }
+
+#esig-mobile-sig-close{
+    margin-right: 5%;
+}
+.signature-wrapper .clearButton{
+    top: -30% !important;
+}
