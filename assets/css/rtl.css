@@ -672,7 +672,8 @@ a:link
 
 .esig-template-page .sig-tooltip.active 
 {
-    margin-top: -100px !important;
+    margin-top: -40% !important;
+    margin-right: -12%;
 }
 
 .instructions
@@ -1363,6 +1364,7 @@ table.responsive-table
 }
 .esig-template-page #esig-footer .sig-tooltip.active{
     max-height: 250px !important;
+    width: 120%;
 }
 .agree-container{
     margin-right: 10% !important; 
