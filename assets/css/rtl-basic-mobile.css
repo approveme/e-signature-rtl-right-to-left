@@ -228,8 +228,17 @@ a:link
 
 .signature-wrapper-displayonly-signed{
     position:relative; 
+    margin-left: 12%;
     
 }
+
+@media screen and (max-width: 600px) {
+    .signature-wrapper-displayonly-signed{
+        
+        margin-left: 8%;
+        
+    }
+  }
 
 .icon-success-check{
     position:relative; 
