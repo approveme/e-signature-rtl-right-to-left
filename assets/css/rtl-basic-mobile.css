@@ -643,7 +643,7 @@ text-align: left;
 
 table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
    
-    padding-right: 25% !important; 
+    padding-right: 12% !important; 
 }
 
 #mobile-adopt-sign {
@@ -714,6 +714,11 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     
     #audit-trail-wrapper .main .info .sign{
         width: 200px !important;
+    }
+
+    table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
+   
+        padding-right: 12% !important; 
     }
 
    
@@ -880,7 +885,7 @@ table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-chi
     margin-right: 5%;
 }
 .signature-wrapper .clearButton{
-    top: -30% !important;
+    top: -25% !important;
 }
 
 @media (orientation: landscape) {
