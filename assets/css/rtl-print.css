@@ -1,14 +1,17 @@
 @media (orientation: portrait) {
     #audit-trail-wrapper .main .info .bio {
-        left: 220px !important;
-        width: 200px !important;
-    
-    }
-    #audit-trail-wrapper .main .info .sign{
-        width: 200px !important;
+        left: 380px !important;
     }
 }
 
 .signatures .form-inline div {
     float: unset !important;
+}
+
+#audit-trail-wrapper .main .info .bio {
+    left: 320px ;
+    width: 250px !important;
+}
+#audit-trail-wrapper .main .info .sign{
+    width: 200px !important;
 }
