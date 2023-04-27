@@ -1,6 +1,15 @@
 @media (orientation: portrait) {
     #audit-trail-wrapper .main .info .bio {
-        left: 180px !important;
+        left: 100px !important;
+    }
+    #audit-trail-wrapper .main .info .user {  
+        right: -30px !important; 
+    }
+
+    #audit-trail-wrapper .main .info .sign{
+        width: 100px !important;
+        border: 1px solid red !important;
+        left: -20px !important;
     }
 }
 
@@ -15,3 +24,4 @@
 #audit-trail-wrapper .main .info .sign{
     width: 200px !important;
 }
+
