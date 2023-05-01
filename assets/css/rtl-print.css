@@ -30,3 +30,8 @@
     width: 200px !important;
 }
 
+@media print{
+    .page-break-before {
+        page-break-before:  unset !important;
+    }
+}
