@@ -892,4 +892,8 @@ table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-chi
     table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         padding-right: 10% !important;
     }
-  }
+}
+
+#audit-trail-wrapper .main .checksum .code {
+    margin-left: 20px !important;
+}
