@@ -76,11 +76,7 @@ if (!class_exists("Esig_RTL")):
                 }
                 $document_type = $api->document->getDocumenttype($doc_id);
 
-                if ($document_type == "normal") {
-                    add_action("esig_head", array($this, "esig_rtl_basic_pdf_styles"));
-                } else {
-                    add_action("esig_head", array($this, "esig_rtl_frontend_styles"));
-                }
+                add_action("esig_head", array($this, "esig_rtl_frontend_styles"));
 
                 $current_screen = isset($_GET['page']) ? $_GET['page'] : '';
 
@@ -105,6 +101,7 @@ if (!class_exists("Esig_RTL")):
                 echo "<link rel='stylesheet' id='esig-rtl-css-basic'  href='" . plugins_url('assets/css/rtl-basic-mobile.css', __FILE__) . "' type='text/css' media='all' />";
             } else{
                  echo "<link rel='stylesheet' id='esig-rtl-css'  href='" . plugins_url('assets/css/rtl.css', __FILE__) . "' type='text/css' media='all' />";
+                 echo '<link rel="stylesheet" media="print" href=' . plugins_url('assets/css/rtl-print.css', __FILE__) . ' />';
             }           
         }
 
