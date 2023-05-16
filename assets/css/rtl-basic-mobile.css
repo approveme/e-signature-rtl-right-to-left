@@ -883,6 +883,7 @@ table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-chi
 
 #esig-mobile-sig-close{
     margin-right: 5%;
+    height: 150px;
 }
 .signature-wrapper .clearButton{
     top: -25% !important;
