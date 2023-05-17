@@ -884,6 +884,7 @@ table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-chi
 #esig-mobile-sig-close{
     margin-right: 5%;
     height: 150px;
+    margin-top: -40px;
 }
 .signature-wrapper .clearButton{
     top: -25% !important;
@@ -897,4 +898,11 @@ table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-chi
 
 #audit-trail-wrapper .main .checksum .code {
     margin-left: 20px !important;
+}
+
+.modal-content .container {
+    padding-top: 5% !important;
+}
+.sig-middle {
+    margin-top: -45px;
 }
