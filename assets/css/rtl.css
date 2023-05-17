@@ -44,3 +44,6 @@ table td,table th
 #audit-trail-wrapper .main .checksum .code {
     margin-left: 20px;
 }
+#signatureCanvas {
+    height: 79px !important;
+}
