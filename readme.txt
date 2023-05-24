@@ -28,7 +28,8 @@ Coming soon.
 
 == Changelog ==
 Version 1.7.7
-FIX: Hebrew language display issue  
+FIX: Hebrew language display issue 
+FIX:  Responsive improvement  
 FIX: Some minor issues
 
 Version 1.7.6
