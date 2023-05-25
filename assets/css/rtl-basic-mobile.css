@@ -228,8 +228,17 @@ a:link
 
 .signature-wrapper-displayonly-signed{
     position:relative; 
+    margin-left: 12%;
     
 }
+
+@media screen and (max-width: 600px) {
+    .signature-wrapper-displayonly-signed{
+        
+        margin-left: 8%;
+        
+    }
+  }
 
 .icon-success-check{
     position:relative; 
@@ -579,12 +588,7 @@ table.responsive-table td:nth-child(2):before {
     right: .5em;
     font-weight: 700
 }
-.audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child,
-.audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-    /* padding-left: 1% !important;  */
-/*  padding-right: 30% !important; */
-    text-align: right;
-}
+
 
 table.display td, table.display th {
 text-align: left;
@@ -619,12 +623,7 @@ table.responsive-table td:nth-child(2):before {
 }
 
 @media(orientation:portrait) {
-.audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child,
-.audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-/* padding-left: 1% !important;  */
-  /*  padding-right: 30% !important; */
-    text-align: right;
-}
+
 #audit-trail-wrapper .header {
     padding-left: 15px;
 }
@@ -643,8 +642,8 @@ text-align: left;
 }
 
 table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
-    /*padding-left: 0% !important;*/
-    /*  padding-right: 30% !important; */
+   
+    padding-right: 12% !important; 
 }
 
 #mobile-adopt-sign {
@@ -661,10 +660,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
 
 @media(orientation: landscape) {
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-      /*  padding-right: 0px !important; */
-        
-    }
+ 
 
     .signatures .form-inline .col-sm-6 {
         float: right ;
@@ -720,6 +716,11 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         width: 200px !important;
     }
 
+    table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
+   
+        padding-right: 12% !important; 
+    }
+
    
 }
 
@@ -747,10 +748,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tbody tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child{
-      /*  padding-right: 30% !important; */
-        
-    }
+
 
     #audit-trail-wrapper .info .left,#audit-trail-wrapper .header .document-info .logo{
         float:none !important;
@@ -769,9 +767,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         
     }
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
-       /*  padding-right: 30% !important; */
-    }
+
 }
 
 
@@ -785,9 +781,6 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
         
     }
 
-    .audit-wrapper #audit-trail-wrapper .main .history table tr td:first-child, .audit-wrapper #audit-trail-wrapper .main .history table th:first-child {
-        /*  padding-right: 30% !important; */
-    }
 }
 .checkbox input[type=checkbox], .checkbox input[type=radio] {
     position: absolute;
@@ -805,6 +798,7 @@ table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
 @media only screen and (max-width: 780px){
 table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
     padding-left: 3% !important;
+    padding-right: 25% !important;
 }
 table.responsive-table td span, table.responsive-table td span {
     position: relative !important;
@@ -877,4 +871,38 @@ padding-left: 0px !important;
 
 #audit-trail-wrapper img{
     vertical-align: middle !important;
+}
+
+table.responsive-table td:nth-child(1):before, table.responsive-table td:nth-child(2):before{
+   left:unset !important;
+}
+
+.sig-middle .sig-draw-section{
+    width: 95% !important;
+}
+
+#esig-mobile-sig-close{
+    margin-right: 5%;
+    height: 150px;
+    margin-top: -40px;
+}
+.signature-wrapper .clearButton{
+    top: -25% !important;
+}
+
+@media (orientation: landscape) {
+    table.responsive-table td:nth-child(1), table.responsive-table td:nth-child(2) {
+        padding-right: 10% !important;
+    }
+}
+
+#audit-trail-wrapper .main .checksum .code {
+    margin-left: 20px !important;
+}
+
+.modal-content .container {
+    padding-top: 5% !important;
+}
+.sig-middle {
+    margin-top: -45px;
 }

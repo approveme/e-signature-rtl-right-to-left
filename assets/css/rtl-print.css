@@ -1,0 +1,41 @@
+@media (orientation: portrait) {
+    #audit-trail-wrapper .main .info .bio {
+        left: 100px !important;
+    }
+    #audit-trail-wrapper .main .info .user {  
+        right: -30px !important; 
+    }
+
+    #audit-trail-wrapper .main .info .sign{
+        width: 100px !important;
+        left: -20px !important;
+    }
+
+    .audit-signature.pull-right {
+        float: left !important;
+        text-align: left !important;
+        left: -20px;
+      }
+}
+
+.signatures .form-inline div {
+    float: unset !important;
+}
+
+#audit-trail-wrapper .main .info .bio {
+    left: 320px ;
+    width: 250px !important;
+}
+#audit-trail-wrapper .main .info .sign{
+    width: 200px !important;
+}
+
+@media print{
+    .page-break-before {
+        page-break-before:  unset !important;
+    }
+}
+
+#audit-trail-wrapper .main .checksum .code {
+  margin-left: 20px;
+}

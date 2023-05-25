@@ -162,5 +162,13 @@ body
     width:100% ; 
     line-height: 1;
 }
+#audit-trail-wrapper .main .checksum .right {
+    float: left !important;
+}
+
+#audit-trail-wrapper .main .checksum .left {
+    float: right !important;
+    text-align: right !important;
+}
 
 
