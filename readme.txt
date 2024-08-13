@@ -3,8 +3,8 @@ Contributors: approveme
 Donate link: http://aprv.me/1LgWgTW
 Tags: right-to-left, rtl, rtl plugin, rtl support wordpress, wordpress right-to-left, wordpress rtl, WP eSignature rtl
 Requires at least: 4.5
-Tested up to: 6.2
-Stable tag: 1.7.7
+Tested up to: 6.6
+Stable tag: 1.7.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,10 @@ Coming soon.
 
 
 == Changelog ==
+Version 1.7.8
+FIX: Aligmnet issue of checkbox
+FIX: Some minor issues
+
 Version 1.7.7
 FIX: Hebrew language display issue 
 FIX:  Responsive improvement  
