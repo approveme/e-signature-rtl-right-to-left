@@ -47,3 +47,8 @@ table td,table th
 #signatureCanvas {
     height: 79px !important;
 }
+
+.checkbox input[type=radio] {
+    margin-right: -20px !important;
+    margin-top: 2px;
+}
