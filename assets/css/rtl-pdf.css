@@ -12,6 +12,13 @@ body
     direction: rtl !important; 
     unicode-bidi: embed;
 }
+.document-sign-page {
+    font-family: 'Open Sans', sans-serif, chinese-msyh;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 5%;
+
+}
 .document_id
 { 
     margin-right: 5px;   
