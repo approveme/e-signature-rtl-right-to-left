@@ -22,11 +22,16 @@ if (!class_exists("Esig_RTL")):
 
         public function __construct() {
 
-            add_action("init", array($this, "esig_rtl_init"));
+            //add_action("init", array($this, "esig_rtl_init"));
 
             add_action("admin_notices", array($this, "esig_requirement_fallback"));
             add_filter("esig-pdf-export-stylesheet", array($this, "esig_rtl_pdf_styles"), 10, 1);
             add_filter("esign-rtl-signature-margin", array($this, "rtl_signature_margin"), 10, 1);
+
+            // qp enqueue  frontend styles 
+            add_action("wp_enqueue_scripts", array($this, "esig_rtl_frontend_styles"));
+            // load rtl admin styles
+            add_action("admin_enqueue_scripts", array($this, "enqueue_admin_styles"));
         }
 
         public function rtl_signature_margin($signatureLeanth) {           
@@ -87,16 +92,28 @@ if (!class_exists("Esig_RTL")):
                 );
 
                 // if (in_array($current_screen, $signature_screens)) {
-                add_action('admin_enqueue_scripts', array($this, 'enqueue_admin_styles'));
+                //add_action('admin_enqueue_scripts', array($this, 'enqueue_admin_styles'));
                 // }
             }
         }
 
         public function enqueue_admin_styles() {
+            // check rtl enabled
+            if (!self::is_rtl_enabled()) {
+                return;
+            }
+            // enqueue rtl admin styles
+            
             echo "<link rel='stylesheet' id='esig-rtl-css'  href='" . plugins_url('assets/css/rtl-admin.css', __FILE__) . "' type='text/css' media='all' />";
         }
 
         public function esig_rtl_frontend_styles() {
+
+            // check rtl enabled
+            if (!self::is_rtl_enabled()) {
+                return;
+            }
+
             if (wp_is_mobile()) {
                 echo "<link rel='stylesheet' id='esig-rtl-css-basic'  href='" . plugins_url('assets/css/rtl-basic-mobile.css', __FILE__) . "' type='text/css' media='all' />";
             } else{
