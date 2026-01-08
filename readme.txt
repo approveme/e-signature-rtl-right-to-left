@@ -3,8 +3,8 @@ Contributors: approveme
 Donate link: http://aprv.me/1LgWgTW
 Tags: right-to-left, rtl, rtl plugin, rtl support wordpress, wordpress right-to-left, wordpress rtl, WP eSignature rtl
 Requires at least: 4.5
-Tested up to: 6.8
-Stable tag: 1.7.9
+Tested up to: 6.9
+Stable tag: 1.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,13 @@ Adds full Right-to-left (RTL) support to WP Signature generated contract & Admin
 2. The actual contracts that your signers/users will need to sign
 
 *A valid WP E-Signature pro or business license is required.
+
+
+== Frequently Asked Questions ==
+
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the undefined plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/11960a1b-9dc5-4ec2-8f18-94925505b9d3). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
  
 
 == Screenshots ==
@@ -27,6 +34,10 @@ Coming soon.
 
 
 == Changelog ==
+
+Version 1.8.0
+FIX : Some minor issues
+
 Version 1.7.9
 FIX: Some minor issues
 
