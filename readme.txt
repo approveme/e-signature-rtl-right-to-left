@@ -26,7 +26,7 @@ Adds full Right-to-left (RTL) support to WP Signature generated contract & Admin
 
 = Where do I report security bugs found in this plugin? =
 
-Please report security bugs found in the source code of the undefined plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/11960a1b-9dc5-4ec2-8f18-94925505b9d3). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+Please report security bugs found in the source code of the WP ESIGNATURE RTL (Right to Left) plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/11960a1b-9dc5-4ec2-8f18-94925505b9d3). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
  
 
 == Screenshots ==
