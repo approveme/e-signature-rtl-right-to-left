@@ -2,16 +2,16 @@
     direction: rtl;
 }
 
-.doc_page
-{
+.doc_page {
     direction: rtl;
 }
-.doc_title {
-    text-align: right ;
-  }
 
-table td,table th 
-{    
+.doc_title {
+    text-align: right;
+}
+
+table td,
+table th {
     text-align: right !important;
 }
 
@@ -29,14 +29,14 @@ table td,table th
 }
 
 .sign-arrow {
-  right: -14px;
-  -ms-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+    right: -14px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .footer-agree {
-  direction: rtl;
+    direction: rtl;
 }
 
 .esig-template-page .sig-tooltip.active {
@@ -48,6 +48,7 @@ table td,table th
 #audit-trail-wrapper .main .checksum .code {
     margin-left: 20px;
 }
+
 #signatureCanvas {
     height: 79px !important;
 }
@@ -61,7 +62,7 @@ table td,table th
 .checkbox-inline input[type=checkbox],
 .radio input[type=radio],
 .radio-inline input[type=radio] {
-   
+
     margin-right: -20px !important;
     margin-top: 0.3% !important;
 }
